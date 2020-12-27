@@ -8,12 +8,21 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    @IBOutlet weak var passcodeImage: UIImageView!
+    var corectpasscode = "0528"
+    var typerpasscode = ""
+    let typeImageName = ["favorite", "favorite", "favorite", "favorite"]
+    
+    @IBOutlet weak var typePasscodeImage: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+
     }
 
-
+    @IBAction func numberBtn(_ sender: UIButton) {
+    }
+    
 }
 
