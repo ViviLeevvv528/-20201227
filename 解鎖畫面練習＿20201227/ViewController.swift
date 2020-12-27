@@ -11,8 +11,8 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var passcodeImage: UIImageView!
     var corectpasscode = "0528"
-    var typerpasscode = ""
-    let typeImageName = ["favorite", "favorite", "favorite", "favorite"]
+    var typepasscode = ""
+    let typeImageName = ["favorite1", "favorite1", "favorite1", "favorite1"]
     
     @IBOutlet weak var typePasscodeImage: UIImageView!
     
@@ -21,8 +21,15 @@ class ViewController: UIViewController {
 
     }
 
+    
+    
     @IBAction func numberBtn(_ sender: UIButton) {
+    
+        
+        
     }
     
+    @IBAction func deleteBtn(_ sender: UIButton) {
+    }
 }
 
